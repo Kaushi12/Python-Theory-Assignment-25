@@ -1,0 +1,5 @@
+1) Square brackets are lists while parentheses are tuples.
+2) Iterators are the objects that use the next() method to get the next value of the sequence. A generator is a function that produces or yields a sequence of values using a yield statement. Classes are used to Implement the iterators. Functions are used to implement the generator.
+3) If a function contains at least one yield statement (it may contain other yield or return statements), it becomes a generator function. Both yield and return will return some value from a function.
+4) In its simplest form, a yield statement looks much like a return statement, except that instead of stopping execution of the function and returning, yield instead provides a value to the code looping over the generator and pauses execution of the generator function.
+5) List comprehension is more concise and easier to read as compared to map. List comprehension are used when a list of results is required as map only returns a map object and does not return any list. Map is faster in case of calling an already defined function (as no lambda is required).
